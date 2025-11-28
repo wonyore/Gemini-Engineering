@@ -17,7 +17,7 @@ const ContributionGraph: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-2 overflow-hidden opacity-70 scale-90 md:scale-100 origin-left">
-      <div className="text-xs text-slate-400 font-mono mb-1">人生足迹 (Life Activity)</div>
+      <div className="text-xs text-slate-400 font-mono mb-1">人生足迹</div>
       <div className="flex gap-1">
         {Array.from({ length: weeks }).map((_, wIndex) => (
           <div key={wIndex} className="flex flex-col gap-1">
