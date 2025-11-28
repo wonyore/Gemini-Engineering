@@ -41,7 +41,7 @@ const BirthdayCard: React.FC<BirthdayCardProps> = ({ profile, motto, onMottoUpda
              <div className="w-24 h-24 mx-auto bg-gradient-to-br from-orange-200 to-rose-200 rounded-full flex items-center justify-center text-5xl shadow-inner mb-4">
               🐒
             </div>
-            <p className="text-rose-400 font-medium">Level Up! {new Date().getFullYear()} 升级成功</p>
+            <p className="text-rose-400 font-medium text-lg">解锁新一岁! {new Date().getFullYear()} 升级成功</p>
           </div>
 
           <div className="text-left bg-white rounded-xl shadow-inner p-1 mb-8">
